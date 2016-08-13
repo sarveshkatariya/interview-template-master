@@ -108,6 +108,7 @@ public class Whiteboard {
 				store = newStore;
 				break;
 			default:
+				newStore = null;
 				break;
 			}
 			if (newStore != null)
